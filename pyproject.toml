@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anton-media-summarizer"
+version = "0.1.0"
+description = "Local media downloader, transcriber, and summarizer skills"
+requires-python = ">=3.9"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "faster-whisper>=1.1",
+  "requests>=2.31",
+  "yt-dlp>=2025.1.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["media_source_downloader*", "media_transcript_summarizer*", "media_pipeline*"]
+

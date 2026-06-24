@@ -1,0 +1,15 @@
+{
+  "output_dir": "outputs",
+  "download": {
+    "prefer_video": true,
+    "cookies": ""
+  },
+  "transcription": {
+    "model_size": "small",
+    "language": "",
+    "device": "auto",
+    "compute_type": "",
+    "vad_filter": true
+  }
+}
+
