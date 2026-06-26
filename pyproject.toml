@@ -16,5 +16,4 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["media_source_downloader*", "media_transcript_summarizer*", "media_pipeline*"]
-
+include = ["media_source_downloader*", "media_transcript_summarizer*", "media_pipeline*", "common_utils*"]
